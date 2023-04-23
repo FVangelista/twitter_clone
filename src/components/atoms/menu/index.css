@@ -1,0 +1,30 @@
+.Menu {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-right: 0.75px solid #a2a2a2;
+    height: 100vh;
+    width: 10%;
+    min-width: 70px;
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Menu {
+    width: 20%;
+    padding: 25px 45px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Menu {
+    width: 30%;
+  }
+}

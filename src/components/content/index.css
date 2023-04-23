@@ -1,0 +1,48 @@
+.Content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+@media screen and (min-width: 400px) {
+  .Content {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .Content {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Content {
+    width: 40%;
+  }
+}
+
+.Content .tweet-btn-mobile {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  display: block;
+  margin-top: 35px;
+  padding: 10px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #fafafa;
+  background-color: #62b9f7;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 400px) {
+  .Content .tweet-btn-mobile {
+    display: none;
+  }
+}

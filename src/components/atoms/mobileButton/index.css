@@ -1,0 +1,19 @@
+.MobileButton .tweet-btn-mobile {
+  display: block;
+  margin-top: 35px;
+  padding: 10px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #fafafa;
+  background-color: #62b9f7;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .MobileButton .tweet-btn-mobile {
+    display: none;
+  }
+}

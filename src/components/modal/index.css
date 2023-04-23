@@ -1,0 +1,117 @@
+.Modal {
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #000;
+  z-index: 7;
+}
+
+.Modal__overlay {
+  display: none;
+}
+
+.Modal__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 8;
+}
+
+.Modal__content--form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.Modal__content--form input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fafafa;
+  font-size: 1rem;
+}
+
+.Modal__content--form input::placeholder {
+  font-size: 1rem;
+  color: #62b9f7;
+  letter-spacing: 2px;
+}
+.Modal__content--form input:focus {
+  outline: none;
+}
+
+.controllers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.75px solid #a2a2a2;
+  padding: 15px;
+}
+
+.Modal__content--form .post-btn {
+  width: 100px;
+
+  border-radius: 25px;
+  border: none;
+  background-color: #62b9f7;
+  text-align: center;
+  color: #fafafa;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn {
+  font-size: 1.75rem;
+  color: #fafafa;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .Modal__overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(36, 45, 53, 0.65);
+    cursor: pointer;
+    z-index: 7;
+  }
+
+  .Modal__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 15px;
+    z-index: 8;
+  }
+}

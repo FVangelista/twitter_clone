@@ -1,0 +1,11 @@
+.SideTrends {
+  padding: 10px 15px;
+  color: #a2a2a2;
+}
+
+.SideTrends span {
+  line-height: 35px;
+  color: #fafafa;
+  font-weight: bold;
+  letter-spacing: 0.75px;
+}

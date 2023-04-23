@@ -1,0 +1,75 @@
+.MenuContent ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  list-style-type: none;
+}
+
+.MenuContent ul li a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: fit-content;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fafafa;
+  font-size: 1.25rem;
+  border-radius: 35px;
+  transition: all 0.35s;
+}
+
+.MenuContent ul li a:hover {
+  background-color: #ffffff1a;
+}
+
+.Menu ul li a .menu-text {
+  display: none;
+}
+
+.Menu ul li .logo {
+  font-size: 1.75rem;
+  color: #ffffff;
+}
+
+.Menu ul .main-logo {
+  padding: 15px;
+  width: fit-content;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.MenuContent ul .main-logo:hover {
+  background-color: #2d388a40;
+}
+
+.MenuContent .tweet-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .Menu ul {
+    align-items: flex-start;
+  }
+
+  .Menu ul li a .menu-text {
+    display: block;
+  }
+
+  .MenuContent .tweet-btn {
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 225px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #62b9f7;
+    border: none;
+    cursor: pointer;
+  }
+}
