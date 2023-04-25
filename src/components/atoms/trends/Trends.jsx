@@ -1,5 +1,5 @@
-import TrendsMenu from '../trendsMenu';
-import './index.css';
+import TrendsMenu from "../trendsMenu";
+import "./index.css";
 
 const Trends = () => {
   return (

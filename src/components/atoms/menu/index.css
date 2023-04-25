@@ -2,6 +2,13 @@
   display: none;
 }
 
+.copy {
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  color: #ffffff;
+}
+
 @media screen and (min-width: 400px) {
   .Menu {
     display: flex;

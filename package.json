@@ -1,12 +1,22 @@
 {
-  "name": "vite-project",
+  "name": "twitter-clone",
+  "description": "twitter clone interface made with react hooks",
+  "author": "Filippo Vangelista",
+  "license": "ISC",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FVangelista/twitter_clone"
+  },
+  "bugs": {
+    "url": "https://github.com/FVangelista/twitter_clone/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
