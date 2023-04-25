@@ -3,10 +3,18 @@
 }
 
 .copy {
+  display: flex;
+  align-items: center;
   position: absolute;
   bottom: 5rem;
   left: 5rem;
   color: #ffffff;
+}
+
+.icon {
+  font-size: 1.45rem;
+  margin: 10px;
+  color: #62b9f7;
 }
 
 @media screen and (min-width: 400px) {
